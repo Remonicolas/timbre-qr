@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "781086832217",
+    "project_id": "timbre-qr-delfino",
+    "storage_bucket": "timbre-qr-delfino.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781086832217:android:b8540b6a04da6d25f62348",
+        "android_client_info": {
+          "package_name": "com.example.timbre_app_qr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGOjF4wpBYYdxKClM5viT3eR8UU_DmWLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
