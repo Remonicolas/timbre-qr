@@ -1,1 +1,22 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"timbre-qr-delfino","appId":"1:781086832217:android:b8540b6a04da6d25f62348","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"timbre-qr-delfino","configurations":{"android":"1:781086832217:android:b8540b6a04da6d25f62348","ios":"1:781086832217:ios:15a9e04b48cb8865f62348","macos":"1:781086832217:ios:15a9e04b48cb8865f62348","web":"1:781086832217:web:724514dd0afa87f7f62348","windows":"1:781086832217:web:671310fab7b4b019f62348"}}}}}}
+{
+  "firestore": {
+    "database": "(default)",
+    "location": "nam5",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
